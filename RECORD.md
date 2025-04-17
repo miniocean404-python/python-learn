@@ -13,3 +13,7 @@
    ```shell
    pip install -r requirements.txt
    ```
+
+# uv 命令
+
+1. uv add -r requirements.txt: 将 requirements.txt 中的所有依赖添使用 uv 进行管理

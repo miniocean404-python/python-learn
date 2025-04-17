@@ -36,7 +36,7 @@ class ReloadMonitor(FileSystemEventHandler):
         该类的实例可以用于监控指定目录下的文件变化，并在文件变化时执行指定的函数。
 
         Args:
-            module_name (None | str, optional): 重载模块的名称，例如：src.lib.request. Defaults to None.
+            module_name (None | str, optional): 重载模块的名称，例如：src.request. Defaults to None.
             function_name (None | str, optional): 重载函数的名称，例如：request_baidu. Defaults to None.
             _*args: 可变参数(匿名参数)，用于传递给函数的参数。
             _**kwargs: 关键字参数(命名参数)，用于传递给函数的参数。

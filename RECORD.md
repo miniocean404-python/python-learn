@@ -2,7 +2,7 @@
 
 ## 依赖
 
-1. 将当前环境中所有通过 pip 安装的包及其版本号信息输出到 requirements.txt 文件中。如果该文件不存在，则会自动创建；如果已存在，则会覆盖原有内容。
+1. 将当前环境中所有通过 pip 安装的包及其版本号信息输出到 requirements.txt 文件中
 
    ```shell
    pip freeze > requirements.txt

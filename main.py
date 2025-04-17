@@ -1,4 +1,4 @@
-from src.lib.request import request_baidu
+from script.reload import hot_reload
 
 if __name__ == "__main__":
-    request_baidu()
+    hot_reload("src.lib.request", "request_baidu", "https://www.baidu.com")
